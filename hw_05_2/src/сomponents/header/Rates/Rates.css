@@ -1,0 +1,31 @@
+.Exchange-rates-container {
+    display: flex;
+    margin-top: 9px;
+  }
+  
+  .Exchange-rates {
+    display: flex;
+  
+    font-size: 13.5px;
+  }
+  
+  .Exchange-rates__item {
+    margin-right: 12px;
+  }
+  
+  .Exchange-rates__item-link {
+    font-weight: 700;
+    text-transform: uppercase;
+  
+    color: #000000;
+  }
+  
+  .Exchange-rates__item-rate {
+    margin-left: 6px;
+  
+    color: #90919d;
+  }
+  
+  .Exchange-rates__more-rates {
+    color: #90919d;
+  }

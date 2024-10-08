@@ -1,0 +1,36 @@
+.News-nav {
+    display: flex;
+  }
+  
+  .News-nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .News-nav-menu__item {
+    margin-right: 12px;
+  }
+  
+  .News-nav-menu__item,
+  .News-nav-menu__item-link {
+    font-weight: 700;
+  
+    color: #6da2e1;
+  }
+  
+  .News-nav-menu__item.active,
+  .News-nav-menu__item-link {
+    color: #0054b9;
+  }
+  
+  .News-current-datetime {
+    font-size: 13px;
+  
+    color: #90919d;
+  }
+  
+  .News-content {
+    margin-top: 9px;
+  
+    font-size: 14.5px;
+  }
