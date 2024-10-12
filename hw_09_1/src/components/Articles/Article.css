@@ -1,0 +1,19 @@
+.Article {
+    padding: 5%;
+}
+
+.Article__title {
+    margin-bottom: 1em;
+
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.Article__paragraph {
+    margin-bottom: 0.6em;
+
+    line-height: 1.5;
+
+    color: #ffffff;
+    opacity: 0.6;
+}

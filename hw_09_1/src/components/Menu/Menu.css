@@ -1,0 +1,40 @@
+.Menu {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    margin: 3rem auto;
+
+    background: #361f36;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.Menu__item {
+    flex-grow: 1;
+}
+
+.Menu__item-link {
+    display: block;
+
+    line-height: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #ffffff;
+    border-bottom-width: 0.2rem;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.Menu__item-link:hover {
+    border-bottom-color: hsl(60, 50%, 50%);
+    opacity: 1;
+}
+
+.Menu__item-link-active,
+.Menu__item-link-active:hover {
+    border-bottom-style: solid;
+    border-bottom-color: hsl(120, 50%, 50%);
+    opacity: 1;
+}
